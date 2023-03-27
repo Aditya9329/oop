@@ -26,3 +26,22 @@ Destructors on the other hand help to destroy class objects.
 The constructor name must be similar to the class name. Constructors do not have a return type.
 
 The constructor can be defined inside or outside the class body. If defined outside the class body, it should be defined with the class name and the scope resolution operator (::).
+
+
+# What is Polymorphism ?
+polymorphism causes a member function to behave differently based on the object that calls/invokes it.
+
+Types of Polymorphism
+C++ supports two types of polymorphism:
+
+Compile-time polymorphism, and
+Runtime polymorphism.
+
+
+#### Compile Time Polymorphism
+You invoke the overloaded functions by matching the number and type of arguments. The information is present during compile-time. This means the C++ compiler will select the right function at compile time.
+
+Compile-time polymorphism is achieved through function overloading and operator overloading.
+
+#### Function Overloading
+Function overloading occurs when we have many functions with similar names but different arguments. The arguments may differ in terms of number or type.
