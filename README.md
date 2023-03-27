@@ -10,3 +10,9 @@ When the private keyword is used to define a function or class, it becomes priva
 ### Public:
 The public keyword, on the other hand, makes data/functions public. These are accessible from outside the class.
 
+#### What is a Private Class?
+Class members marked as private can only be accessed by functions defined within the class. Any object or function defined outside the class cannot access such members directly. A private class member is only accessed by member and friend functions.
+
+### What is a Protected Class?
+Class members marked as protected have an advantage over those marked as private. They can be accessed by functions within the class of their definition. Additionally, they can be accessed from derived classes.
+
