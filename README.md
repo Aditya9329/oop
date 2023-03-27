@@ -45,3 +45,9 @@ Compile-time polymorphism is achieved through function overloading and operator 
 
 #### Function Overloading
 Function overloading occurs when we have many functions with similar names but different arguments. The arguments may differ in terms of number or type.
+
+#### Runtime Polymorphism
+This happens when an object’s method is invoked/called during runtime rather than during compile time. Runtime polymorphism is achieved through function overriding. The function to be called/invoked is established during runtime.
+
+#### Function Overriding
+Function overriding occurs when a function of the base class is given a new definition in a derived class. At that time, we can say the base function has been overridden.
