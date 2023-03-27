@@ -16,3 +16,13 @@ Class members marked as private can only be accessed by functions defined within
 ### What is a Protected Class?
 Class members marked as protected have an advantage over those marked as private. They can be accessed by functions within the class of their definition. Additionally, they can be accessed from derived classes.
 
+# Constructors and Destructors
+### What is Constructors?
+Constructs are special functions that initialize objects. The C++ compilers calls a constructor when creating an object. The constructors help to assign values to class members. Of course, this is after they have been allocated some memory space.
+
+### What is Destructors?
+Destructors on the other hand help to destroy class objects.
+
+The constructor name must be similar to the class name. Constructors do not have a return type.
+
+The constructor can be defined inside or outside the class body. If defined outside the class body, it should be defined with the class name and the scope resolution operator (::).
