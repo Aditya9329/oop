@@ -51,3 +51,6 @@ This happens when an object’s method is invoked/called during runtime rather t
 
 #### Function Overriding
 Function overriding occurs when a function of the base class is given a new definition in a derived class. At that time, we can say the base function has been overridden.
+
+#### Virtual Function
+A virtual function is another way of implementing run-time polymorphism in C++. It is a special function defined in a base class and redefined in the derived class. To declare a virtual function, you should use the virtual keyword. The keyword should precede the declaration of the function in the base class.
